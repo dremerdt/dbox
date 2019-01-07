@@ -3,6 +3,14 @@
   <PropertyGroup>
     <TargetFramework>netstandard2.0</TargetFramework>
     <RootNamespace>dbox_global</RootNamespace>
+    <Authors>Mihail Matenco</Authors>
+    <GeneratePackageOnBuild>false</GeneratePackageOnBuild>
+    <PackageRequireLicenseAcceptance>true</PackageRequireLicenseAcceptance>
+    <PackageLicenseUrl>https://github.com/dremerdt/dbox/blob/master/LICENSE</PackageLicenseUrl>
+    <Description>A toolbox with a lot of cool utilities and handlers</Description>
+    <PackageProjectUrl>https://github.com/dremerdt/dbox</PackageProjectUrl>
+    <RepositoryUrl>https://github.com/dremerdt/dbox</RepositoryUrl>
+    <NeutralLanguage>en</NeutralLanguage>
   </PropertyGroup>
 
 </Project>

@@ -3,6 +3,14 @@
   <PropertyGroup>
     <TargetFramework>netcoreapp2.1</TargetFramework>
     <RootNamespace>dbox_web</RootNamespace>
+    <Authors>Mihail Matenco</Authors>
+    <Company>Mihail Matenco</Company>
+    <Description>A web toolbox with a lot of cool utilities and handlers</Description>
+    <PackageRequireLicenseAcceptance>true</PackageRequireLicenseAcceptance>
+    <PackageLicenseUrl>https://github.com/dremerdt/dbox/blob/master/LICENSE</PackageLicenseUrl>
+    <PackageProjectUrl>https://github.com/dremerdt/dbox</PackageProjectUrl>
+    <RepositoryUrl>https://github.com/dremerdt/dbox</RepositoryUrl>
+    <NeutralLanguage>en</NeutralLanguage>
   </PropertyGroup>
 
   <ItemGroup>
