@@ -39,9 +39,15 @@ steps:
 - task: NuGetCommand@2
   inputs:
     command: pack
-    packagesToPack: '**/dbox-global.csproj;**/dbox-web.csproj;'
-    versioningScheme: byPrereleaseNumber
-    majorVersion: '$(Major)'
-    minorVersion: '$(Minor)'
-    patchVersion: '$(Patch)'
+    packagesToPack: '**/dbox-global.csproj'
+    versioningScheme: byEnvVar
+    versionEnvVar: Version
+
+- task: NuGetCommand@2
+  inputs:
+    command: push
+    nuGetFeedType: external
+    publishFeedCredentials: '$(NugetKey)'
+    versioningScheme: byEnvVar
+    versionEnvVar: Version
 
