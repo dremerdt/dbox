@@ -4,6 +4,8 @@
     <TargetFramework>netcoreapp2.1</TargetFramework>
 
     <IsPackable>false</IsPackable>
+
+    <RootNamespace>dbox_global_tests</RootNamespace>
   </PropertyGroup>
 
   <ItemGroup>

@@ -1,7 +1,7 @@
 using dbox_global.Utils;
 using NUnit.Framework;
 
-namespace Tests
+namespace dbox_global_tests
 {
     public class Tests
     {
