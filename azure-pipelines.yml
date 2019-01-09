@@ -40,7 +40,7 @@ steps:
   inputs:
     command: pack
     packagesToPack: '**/dbox-global.csproj;**/dbox-web.csproj;'
-    versioningScheme: byBuildNumber
+    versioningScheme: byPrereleaseNumber
     majorVersion: '$(Major)'
     minorVersion: '$(Minor)'
     patchVersion: '$(Patch)'
