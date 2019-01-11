@@ -36,18 +36,18 @@ steps:
     platform: '$(buildPlatform)'
     configuration: '$(buildConfiguration)'
 
-- task: NuGetCommand@2
-  inputs:
-    command: pack
-    packagesToPack: '**/dbox-global.csproj'
-    versioningScheme: byEnvVar
-    versionEnvVar: Version
+#- task: NuGetCommand@2
+#  inputs:
+#    command: pack
+#    packagesToPack: '**/dbox-global.csproj'
+#    versioningScheme: byEnvVar
+#    versionEnvVar: Version
 
-- task: NuGetCommand@2
-  inputs:
-    command: push
-    nuGetFeedType: external
-    publishFeedCredentials: '$(NugetKey)'
-    versioningScheme: byEnvVar
-    versionEnvVar: Version
+#- task: NuGetCommand@2
+#  inputs:
+#    command: push
+#    nuGetFeedType: external
+#    publishFeedCredentials: '$(NugetKey)'
+#    versioningScheme: byEnvVar
+#    versionEnvVar: Version
 
